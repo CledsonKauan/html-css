@@ -32,7 +32,8 @@ body{
 
 main{
     background-color: white;
-    padding: 25px;
+    padding: 30px;
+    padding-right: 80px;
     margin: auto;
     margin-bottom: 20px;
     min-width: 320px;
