@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+        h1{
+            text-align: center;
+        }
+        header > h1:hover{
+            color: rgb(0, 255, 64);
+            text-align: center;
+
+            margin-right: 10px;
+        }
+     
+        h2:hover{
+            color: steelblue;
+            margin-left: 10px;
+        }
+
+        nav{
+            text-align: center;
+        }
+
+        nav > a{
+           text-decoration: none;
+            font-weight: bolder;
+        }
+        nav > a:hover{
+            color: rgb(0, 132, 255);
+            margin-left: 10px;
+        }
+        nav >a:active{
+            color: rgb(0, 252, 63);
+        }
+        nav >a::after{
+            color: yellow;
+        }
+        footer > p:hover{
+            text-align: center;
+            background-color: rgba(57, 174, 180, 0.486);
+            margin-left: 30px;
+            border: 1px solid black;
+
+        }
+       p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+       }
+
+       .dev{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       aside:hover{
+        color: brown;
+        margin-left: 10px;
+       }
+
+    </style>
+</head>
+<body>
+     <header>
+        <h1>Site</h1>
+        <nav>
+            <a href="#">Assista algum video aqui!</a>
+        </nav>
+     </header>
+
+     <main>
+        <section>
+            <article>
+                <h2>Desenvolvendo um site</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quam ullam laborum quibusdam officia est ipsam dolorum nulla alias, praesentium, doloremque aspernatur vero tempora nemo porro esse excepturi laboriosam! Cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis rerum dignissimos deserunt quo! Deserunt, rem ab incidunt officiis nostrum delectus nemo, sint fugit fuga maiores dolore, nesciunt enim ut inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatum modi est, sapiente totam eum odit ipsam iste id culpa dolor quaerat temporibus. Iste quos maiores molestias, architecto ipsa nisi!</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Outro Exemplo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium facilis et tenetur sapiente numquam hic non blanditiis soluta unde iure odit impedit dolorem accusamus magni error, ut necessitatibus quibusdam amet? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor porro, velit sint quisquam officia voluptatum necessitatibus illo vitae esse maxime corporis itaque! Soluta similique ab doloribus consequatur voluptatibus, quisquam pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam ipsum adipisci, minima nisi itaque enim! Asperiores aspernatur quibusdam dicta quod voluptates doloremque quia deserunt. Recusandae quaerat aliquid quam quas!</p>
+                <aside>
+                    Exemplo criado por:
+                </aside>
+            </article>
+        </section>
+     </main>
+     <footer>
+        <p class ="dev">Desenvolvido por Cledson</p>
+     </footer>
+     
+</body>
+</html>

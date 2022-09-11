@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+
+.teste{
+    background-color: black;
+    color: white;
+    height: 100px;
+    overflow: auto;
+}
